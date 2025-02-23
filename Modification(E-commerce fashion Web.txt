@@ -1,0 +1,8 @@
+Modification:(E-commerce fashion Website)
+1.offer highlight
+2.menu toggle implement
+3.body and footer divide with color
+
+bag page:
+icon,offer highlight
+quantity section
