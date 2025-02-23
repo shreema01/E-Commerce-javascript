@@ -1,8 +1,10 @@
-Modification:(E-commerce fashion Website)
-1.offer highlight
-2.menu toggle implement
-3.body and footer divide with color
+Modification:(E-commerce fashion Website):
 
-bag page:
-icon,offer highlight
-quantity section
+Home Page:
+1.offer highlight(done)
+2.menu toggle implementation
+3.body and footer divide with background color(done)
+
+Bag page:
+icon,offer highlight inside the page
+quantity section add in the item id description 
