@@ -7,7 +7,7 @@ const items = [
       original_price: 1045,
       current_price: 606,
       discount_percentage: 42,
-      return_period: 10,
+      return_period: 12,
       delivery_date: '20 March 2025',
       rating: {
           stars: 4.5,
