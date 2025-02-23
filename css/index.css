@@ -214,6 +214,7 @@ header {
   background-color: lightgreen;
   border: none;
   padding: 5px 15px;
+  /* top right bottom left(clockwise) */
   border-radius: 10px;
   cursor: pointer;
 }
