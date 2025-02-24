@@ -40,7 +40,7 @@ const items = [
       return_period: 12,
       delivery_date: '23 March 2025',
       rating: {
-          stars: 4.1,
+          stars: 4.2,
           count: 249,
       },
   },
@@ -70,7 +70,7 @@ const items = [
       return_period: 12,
       delivery_date: '25 March 2025',
       rating: {
-          stars: 4.2,
+          stars: 4.4,
           count: 3500,
       },
   },
@@ -85,8 +85,8 @@ const items = [
       return_period: 15,
       delivery_date: '26 March 2025',
       rating: {
-          stars: 0.0,
-          count: 0,
+          stars: 4.2,
+          count: 400,
       },
   },
   {
