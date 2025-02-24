@@ -10,7 +10,7 @@ const items = [
       return_period: 12,
       delivery_date: '20 March 2025',
       rating: {
-          stars: 4.5,
+          stars: 4.7,
           count: 1400,
       },
   },
@@ -26,7 +26,7 @@ const items = [
       delivery_date: '22 March 2025',
       rating: {
           stars: 4.3,
-          count: 24,
+          count: 240,
       },
   },
   {
@@ -41,7 +41,7 @@ const items = [
       delivery_date: '23 March 2025',
       rating: {
           stars: 4.2,
-          count: 249,
+          count: 279,
       },
   },
   {
@@ -55,8 +55,8 @@ const items = [
       return_period: 10,
       delivery_date: '24 March 2025',
       rating: {
-          stars: 4.6,
-          count: 10,
+          stars: 4.5,
+          count: 190,
       },
   },
   {
@@ -70,7 +70,7 @@ const items = [
       return_period: 12,
       delivery_date: '25 March 2025',
       rating: {
-          stars: 4.4,
+          stars: 4.8,
           count: 3500,
       },
   },
@@ -85,8 +85,8 @@ const items = [
       return_period: 15,
       delivery_date: '26 March 2025',
       rating: {
-          stars: 4.2,
-          count: 400,
+          stars: 4.3,
+          count: 450,
       },
   },
   {
@@ -100,8 +100,8 @@ const items = [
       return_period: 10,
       delivery_date: '27 March 2025',
       rating: {
-          stars: 4.2,
-          count: 388,
+          stars: 4.6,
+          count: 398,
       },
   },
   {
@@ -115,7 +115,7 @@ const items = [
       return_period: 12,
       delivery_date: '28 March 2025',
       rating: {
-          stars: 4.2,
+          stars: 4.6,
           count: 5200,
       },
   }
