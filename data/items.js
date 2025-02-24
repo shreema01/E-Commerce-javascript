@@ -9,7 +9,6 @@ const items = [
       discount_percentage: 50,
       return_period: 12,
       delivery_date: '20 March 2025',
-   
       rating: {
           stars: 4.5,
           count: 1400,
