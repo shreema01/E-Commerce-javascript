@@ -55,7 +55,7 @@ const items = [
       return_period: 10,
       delivery_date: '24 March 2025',
       rating: {
-          stars: 5.0,
+          stars: 4.6,
           count: 10,
       },
   },
