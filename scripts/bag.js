@@ -101,6 +101,8 @@ function generateItemHTML(item) {
       </div>
     </div>
 
-    <div class="remove-from-cart" onclick="removeFromBag(${item.id})">X</div>
+    <div class="remove-from-cart" onclick="removeFromBag(${item.id})">
+    <i class="fa-solid fa-xmark"></i>
+    </div>
   </div>`;
 }
