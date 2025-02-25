@@ -100,7 +100,7 @@ function generateItemHTML(item) {
         <span class="delivery-details-days">${item.delivery_date}</span>
       </div>
     </div>
-  
+    
   
     <div class="remove-from-cart" onclick="removeFromBag(${item.id})">
     <i class="fa-solid fa-xmark"></i>
