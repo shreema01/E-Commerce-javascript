@@ -107,13 +107,13 @@ const items = [
   {
       id: '008',
       image: 'images/8.jpg',
-      company: 'Nivea',
+      company: 'Nivea Men Perform',
       item_name: 'Men Fresh Deodrant 150ml',
       original_price: 285,
       current_price: 142,
       discount_percentage: 50,
       return_period: 14,
-      delivery_date: '29 March 2025',
+      delivery_date:'29 March 2025',
       rating: {
           stars: 4.6,
           count: 5200,
