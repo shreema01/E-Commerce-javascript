@@ -50,25 +50,3 @@ function displayItemsOnHomePage() {
   });
   itemsContainerElement.innerHTML = innerHtml;
 }
-// new 
-document.addEventListener('DOMContentLoaded', () => {
-  const modal = document.getElementById('responsiveModal');
-  const closeBtn = document.querySelector('.close-btn');
-
-  // Close modal when "x" is clicked
-  closeBtn.addEventListener('click', () => {
-    modal.style.display = 'none';
-  });
-
-  // Close modal if clicked outside the modal content
-  window.addEventListener('click', (event) => {
-    if (event.target == modal) {
-      modal.style.display = 'none';
-    }
-  });
-
-  // Optional: Show modal when screen width is below 768px
-  if (window.innerWidth < 768) {
-    modal.style.display = 'block';
-  }
-});
