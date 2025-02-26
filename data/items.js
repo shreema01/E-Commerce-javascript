@@ -2,8 +2,8 @@ const items = [
   {
       id: '001',
       image: 'images/1.jpg',
-      company: 'Carlton London',
-      item_name: 'Rhodium-Plated CZ Floral Studs',
+      company: 'Carlonza Luxe',
+      item_name: 'Crystal Bloom Studs',
       original_price: 1046,
       current_price: 523,
       discount_percentage: 50,
@@ -17,7 +17,7 @@ const items = [
   {
       id: '002',
       image: 'images/2.jpg',
-      company: 'CUKOO',
+      company: 'Cukova',
       item_name: 'Women Padded Halter Neck Swimming Dress',
       original_price: 2599,
       current_price: 1507,
@@ -77,7 +77,7 @@ const items = [
   {
       id: '006',
       image: 'images/6.jpg',
-      company: 'Nike',
+      company: 'Nike shoe',
       item_name: 'Men ReactX Running Shoes',
       original_price: 14996,
       current_price: 7498,
