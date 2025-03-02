@@ -7,7 +7,6 @@
   color: #282c3f;
   font-size: 13px;
   line-height: 1.42857143;
- 
 }
 
 .bag-page {
@@ -137,6 +136,7 @@
   cursor: pointer;
   color:#008080;
 }
+
 .discount-percentage{
   color:#518817;
   font-weight: bold;
