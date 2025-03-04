@@ -237,3 +237,7 @@
   border: 1px solid #4C9BFD;
   box-shadow: 0 0 5px rgba(76, 155, 253, 0.3);
 }
+/* highlight the footer heading */
+.highlight{
+  font-weight: 700;
+}

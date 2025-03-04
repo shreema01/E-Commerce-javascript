@@ -306,3 +306,6 @@ header {
 a.action_container:link {
   color: black;
 }
+.highlight{
+  font-weight: 700;
+}
