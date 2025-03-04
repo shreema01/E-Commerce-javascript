@@ -7,16 +7,12 @@
   color: #282c3f;
   font-size: 13px;
   line-height: 1.42857143;
-
-
 }
-
 
 .bag-page {
   width: 75%;
   margin-left: 12.5%;
 }
-
 
 .bag-summary {
   vertical-align: top;
@@ -28,11 +24,9 @@
   line-height: 1.42857143;
 }
 
-
 .bag-details-container {
   margin-bottom: 16px;
 }
-
 
 .price-header {
   font-size: 12px;
@@ -41,7 +35,6 @@
   color: #535766;
 }
 
-
 .price-item {
   margin-bottom: 12px;
   line-height: 16px;
@@ -49,16 +42,13 @@
   color: #282c3f;
 }
 
-
 .price-item-value {
   float: right;
 }
 
-
 .priceDetail-base-discount {
   color: #03a685;
 }
-
 
 .price-footer {
   font-weight: 700;
@@ -68,7 +58,6 @@
   color: #3e4152;
   line-height: 16px;
 }
-
 
 .btn-place-order {
   width: 100%;
@@ -83,7 +72,6 @@
   cursor: pointer;
 }
 
-
 .bag-item-container {
   margin-bottom: 8px;
   background: #fff;
@@ -94,14 +82,12 @@
   padding: 12px 12px 0;
 }
 
-
 .item-left-part {
   position: absolute;
   background: rgb(255, 242, 223);
   height: 148px;
   width: 111px;
 }
-
 
 .item-right-part {
   padding-left: 12px;
@@ -111,11 +97,9 @@
   margin-bottom: 12px;
 }
 
-
 .bag-item-img {
   width: 100%;
 }
-
 
 .return-period {
   display: inline-flex;
@@ -123,12 +107,10 @@
   padding-top: 8px;
 }
 
-
 .return-period-days {
   font-weight: 700;
   margin-right: 4px;
 }
-
 
 .delivery-details {
   margin-top: 5px;
@@ -139,12 +121,10 @@
   line-height: 15px;
 }
 
-
 .delivery-details-days {
   color: #FF4C4C;
   font-weight: 700;
 }
-
 
 .remove-from-cart {
   position: absolute;
@@ -157,22 +137,10 @@
   color: #008080;
 }
 
-
 .discount-percentage {
   color: #518817;
   font-weight: bold;
-
-
 }
-
-
-
-
-
-
-
-
-
 
 /* Increment decrement quantity section */
 .quantity-section {
@@ -183,15 +151,12 @@
   margin-top: 10px;
   padding: 5px;
 
-
 }
-
 
 .quantity-section label {
   font-size: 15px;
   font-weight: bold;
 }
-
 
 .quantity-btn {
   width: 30px;
@@ -203,19 +168,11 @@
   cursor: pointer;
 }
 
-
 #quantity {
   width: 50px;
   text-align: center;
   font-size: 16px;
 }
-
-
-
-
-
-
-
 
 /* Container for the Quantity section */
 .quantity-section {
@@ -225,7 +182,6 @@
   font-family: 'Arial', sans-serif;
 }
 
-
 /* Label for the quantity */
 .quantity-label {
   font-size: 16px;
@@ -234,14 +190,12 @@
   margin-right: 10px;
 }
 
-
 /* Wrapper for buttons and input field */
 .quantity-controls {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 
 /* Common styles for buttons */
 .quantity-btn {
@@ -259,12 +213,10 @@
   transition: background-color 0.3s ease;
 }
 
-
 /* Hover effects for buttons */
 .quantity-btn:hover {
   background-color: #e0e0e0;
 }
-
 
 /* Input field for quantity */
 .quantity-input {
@@ -278,7 +230,6 @@
   background-color: #fff;
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 /* Input focus effect */
 .quantity-input:focus {
