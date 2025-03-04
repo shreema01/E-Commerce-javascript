@@ -2,30 +2,22 @@ const CONVENIENCE_FEES = 99;
 let bagItemObjects;
 onLoad();
 
-
 function onLoad() {
   loadBagItemObjects();
   displayBagItems();
   displayBagSummary();
 }
 
-
 function displayBagSummary() {
   let bagSummaryElement = document.querySelector('.bag-summary');
   let totalItem = bagItemObjects.length;
   let totalMRP = 0;
   let totalDiscount = 0;
-
-
   bagItemObjects.forEach(bagItem => {
     totalMRP += bagItem.original_price * bagItem.quantity;
     totalDiscount += (bagItem.original_price - bagItem.current_price) * bagItem.quantity;
   });
-
-
   let finalPayment = totalMRP - totalDiscount + CONVENIENCE_FEES;
-
-
   bagSummaryElement.innerHTML = `
     <div class="bag-details-container">
       <div class="price-header">PRICE DETAILS (${totalItem} Items) </div>
@@ -50,7 +42,6 @@ function displayBagSummary() {
   `;
 }
 
-
 function loadBagItemObjects() {
   console.log(bagItems);
   bagItemObjects = bagItems.map(itemId => {
@@ -65,7 +56,6 @@ function loadBagItemObjects() {
   console.log(bagItemObjects);
 }
 
-
 function displayBagItems() {
   let containerElement = document.querySelector('.bag-items-container');
   let innerHTML = '';
@@ -75,7 +65,6 @@ function displayBagItems() {
   containerElement.innerHTML = innerHTML;
 }
 
-
 function removeFromBag(itemId) {
   bagItems = bagItems.filter(bagItemId => bagItemId != itemId);
   localStorage.setItem('bagItems', JSON.stringify(bagItems));
@@ -84,7 +73,6 @@ function removeFromBag(itemId) {
   displayBagItems();
   displayBagSummary();
 }
-
 
 function generateItemHTML(item) {
   return `<div class="bag-item-container">
@@ -114,22 +102,17 @@ function generateItemHTML(item) {
     <button id="increase-${item.id}" class="quantity-btn increase-btn">+</button>
   </div>
 </div>
-
-
     </div>
     <div class="remove-from-cart" onclick="removeFromBag(${item.id})">
       <i class="fa-solid fa-xmark"></i>
     </div>
   </div>`;
 }
-
-
 // Event listeners for quantity change buttons
 bagItemObjects.forEach(item => {
   const quantityInput = document.getElementById(`quantity-${item.id}`);
   const decreaseButton = document.getElementById(`decrease-${item.id}`);
   const increaseButton = document.getElementById(`increase-${item.id}`);
-
 
   decreaseButton.addEventListener("click", () => {
     let currentValue = parseInt(quantityInput.value);
@@ -139,7 +122,6 @@ bagItemObjects.forEach(item => {
       displayBagSummary();
     }
   });
-
 
   increaseButton.addEventListener("click", () => {
     let currentValue = parseInt(quantityInput.value);
